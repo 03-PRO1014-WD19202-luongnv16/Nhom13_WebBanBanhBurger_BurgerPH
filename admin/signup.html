@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
-    <link rel="stylesheet" href="css/stylesignin.css">
+    <title>Signin</title>
+    <link rel="stylesheet" href="../layout/css/stylesignin.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -13,22 +13,19 @@
             <div class="icon-heading">
                 <img class="icon-buger" src="img/favicon.png" alt="">
             </div>
-            <h1 class="signup-heading">Đăng Nhập</h1>
-            <button class="signup-social">
-                <i class="bi bi-google signup-icon"></i>
-                <span class="signup-text">Đăng Nhập Với Google</span>
-            </button>
-            <div class="signup-or"><span>Hoặc</span></div>
+            <h1 class="signup-heading">Đăng Kí</h1>
             <form action="#" class="signup-form" autocomplete="off">
                 <label for="name-dang-nhap" id="user-name" class="signup-label">Tên Đăng Nhập</label>
                 <input type="text" class="signup-input" placeholder="Nhập tài khoản">
                 <label for="pass" class="signup-label">Mật Khẩu</label>
                 <input type="text" id="mat-khau" class="signup-input" placeholder="Nhập mật khẩu">
-                <button class="signup-submit" onclick="checkform()">Đăng Nhập</button>
+                <label for="pass" class="signup-label">Nhập Email</label>
+                <input type="text" id="mat-khau" class="signup-input" placeholder="Nhập email">
+                <button class="signup-submit" onclick="checkform()">Đăng Kí</button>
             </form>
           <p class="signup-alrealy">
-              <span>Chưa có tài khoản ?</span>
-              <a href="" class="signup-login-link">Đăng Kí Ngay</a>
+              <span>Đã có tài khoản ?</span>
+              <a href="" class="signup-login-link">Đăng Nhập</a>
           </p>
         </div>
     </div>

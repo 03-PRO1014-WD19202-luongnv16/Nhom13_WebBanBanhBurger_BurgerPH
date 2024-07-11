@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giao dien Admin</title>
     <!-- Style Admin -->
-    <link rel="stylesheet" href="css/styleadmin.css">
+    <link rel="stylesheet" href="../layout/css/styleadmin.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
    
 </head>
@@ -23,13 +23,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="index.php">
                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
                        <span class="title">Trang Chủ</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="index.php?act=adddm">
                        <span class="icon"><ion-icon name="list-outline"></ion-icon></span>
                        <span class="title">Danh Mục</span>
                     </a>
@@ -68,36 +68,5 @@
             </div>
             <div class="user">
                 <img src="img/mmmm.jpg" alt="">
-            </div>
-        </div>
-    <!-- Trang thao tac chinh MAIN -->     
-    <div class="form-container">
-        <div class="form-title">Thêm Danh Mục</div>
-        <form>
-            <div class="form-group">
-                <label for="ma-loai">Mã loại:</label>
-                <input type="text" id="ma-loai" name="ma-loai" disabled>
-            </div>
-            <div class="form-group">
-                <label for="ten-loai">Tên Danh Mục:</label>
-                <input type="text" id="ten-loai" name="ten-loai">
-            </div>
-            <div class="button-group">
-                <input class="btn-add" type="submit" value="Thêm">
-                <input class="btn-update" type="button" value="Sửa">
-                <input class="btn-delete" type="button" value="Xóa">
-            </div>
-        </form>
-    </div>
-    <!-- FOOTER -->
 </div>
-    </div>
-    <!-- REPONSIVE DESIGN-->
-
-    <!--Javascript-->
-    <script src="js/main.js"></script>
-    <!-- Thu vien Lonicons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+        </div>

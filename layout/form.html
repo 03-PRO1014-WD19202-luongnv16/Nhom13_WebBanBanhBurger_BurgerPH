@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới hàng hóa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .button-group {
+            text-align: right; /* Đặt các nút về bên phải */
+        }
+        .button-group input[type="submit"], .button-group input[type="button"] {
+            width: 100px;
+            padding: 10px;
+            margin-left: 10px; /* Thay đổi từ margin-right sang margin-left */
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px; /* Bo góc cho button */
+        }
+        .btn-add {
+            background-color: #4CAF50;
+        }
+        .btn-update {
+            background-color: #2196F3;
+        }
+        .btn-delete {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <div class="form-title">Thêm mới hàng hóa</div>
+    <form>
+        <div class="form-group">
+            <label for="ma-loai">Mã loại:</label>
+            <input type="text" id="ma-loai" name="ma-loai">
+        </div>
+        <div class="form-group">
+            <label for="ten-loai">Tên loại:</label>
+            <input type="text" id="ten-loai" name="ten-loai">
+        </div>
+        <div class="button-group">
+            <input class="btn-add" type="submit" value="Thêm">
+            <input class="btn-update" type="button" value="Sửa">
+            <input class="btn-delete" type="button" value="Xóa">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
